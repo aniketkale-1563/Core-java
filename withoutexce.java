@@ -14,6 +14,17 @@ public class withoutexce {
 		}
 		System.out.println("Will Not Print");
 		
+		
+		try 
+		{
+			int mynum[]= {10,4,8,26,46};
+			System.out.println(mynum[5]);
+		}
+		catch(Exception e) 
+		{
+			System.out.println("Element doesn't exist");
+		}
+		
 
 	}
 
