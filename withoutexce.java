@@ -25,6 +25,30 @@ public class withoutexce {
 			System.out.println("Element doesn't exist");
 		}
 		
+		
+		
+		///Multiple Catch Block
+		
+		try {
+			int a1=10;
+			System.out.println("a="+a1);
+			int b=45/a1;
+			int c[]= {1};
+			c[45]=99;
+		}
+		catch(ArithmeticException e) 
+		{
+			System.out.println("Div by 0:"+e);
+		}
+		catch(ArrayIndexOutOfBoundsException e) 
+		{
+			System.out.println("Div by 0:"+e);
+		}
+		catch(Exception e) 
+		{
+			System.out.println("Exception e:"+e);
+		}
+		
 
 	}
 
